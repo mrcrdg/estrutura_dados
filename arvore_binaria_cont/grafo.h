@@ -2,7 +2,7 @@
 #define GRAFO_H_INCLUDED
 
 
-#define QTDADE_MAX_VERT 30
+#define QTDADE_MAX_VERT 70 // definir este valor de acordo com o numero de vertices do grafo
 typedef struct grafoo* Grafo;
 
 Grafo cria_grafo(bool eh_dig);
